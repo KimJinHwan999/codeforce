@@ -21,3 +21,4 @@ result.push("NO");
 
 console.log(result.join("\n")); //정답 여러개
 */
+//test
