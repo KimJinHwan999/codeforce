@@ -21,4 +21,11 @@ result.push("NO");
 
 console.log(result.join("\n")); //정답 여러개
 */
-//test
+
+//elephant 0 friend x(x>0)
+
+const move = Number(arr[idx]);
+const step = Math.floor(move / 5);
+const step1 = Number(move % 5 === 0 ? 0 : 1);
+const step2 = step + step1;
+console.log(step2);
