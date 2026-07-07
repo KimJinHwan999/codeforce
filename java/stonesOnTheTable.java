@@ -5,6 +5,9 @@ public class stonesOnTheTable{
         Scanner sc = new Scanner(System.in);
         int cnt = sc.nextInt();
 
+        if(cnt > 5){
+            System.out.println("hello");
+        }
 
         sc.close();
     }
